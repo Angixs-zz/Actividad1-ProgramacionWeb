@@ -1,0 +1,64 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef4ff;
+    margin: 0;
+    padding: 30px;
+}
+
+
+.presentacion {
+    text-align: center;
+    background-color: #bf7c1f;
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.presentacion h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+
+.informacion {
+    background-color: white;
+    padding: 15px;
+    margin: 20px auto;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.actividad {
+    text-align: center;
+    color: #bf641f;
+}
+
+.links {
+    background-color: white;
+    padding: 20px;
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links li {
+    margin: 10px 0;
+}
+
+.links a {
+    text-decoration: none;
+    color: #dc913b;
+    font-weight: bold;
+}
+
+.links a:hover {
+    color: #811603;
+    text-decoration: underline;
+}
