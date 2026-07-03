@@ -4,7 +4,7 @@
 
 **Alumno:** Miguel Angel Hernández Pérez  
 **Materia:** Programación Web  
-**Docente:** Adelina Martínez  
+**Docente:** Adelina Martínez Nieto 
 **Horario:** 10:00 - 13:00 hrs  
 
 ## Descripción
