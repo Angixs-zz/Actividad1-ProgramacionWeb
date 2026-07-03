@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 15 - Calificaciones Estudiantes</title>
+    <link rel="stylesheet" href="css/ejercicio15.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1 class="titulo">Ejercicio 15 - Calificaciones de Estudiantes</h1>
+        <form class = "formulario">
+            <div class = "campo">
+                <label>Agrega la informacion necesaria:</label>
+                <br>
+                <label for="nombre">Agrega el nombre</label>
+                <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                class="entrada"
+                placeholder="Ej: Miguel Angel Hernandez Perez">
+
+                <label for="calificacion">Agrega su calificacion:</label>
+                <input 
+                type="number" 
+                name="calificacion" 
+                id="calificacion"
+                class="entrada"
+                placeholder="Ej: 9"
+                min="0"
+                max="100">
+            </div>
+
+            <button
+                class="boton"
+                type="button"
+                id="botonAgregar"
+                name="botonAgregar">
+                Ingresar estudiante
+            </button>
+
+            <button
+                class="boton"
+                type="button"
+                id="botonCalcular"
+                name="botonCalcular">
+                Calcular
+            </button>
+
+            <div class="campo">
+
+                <label for="promedio">Promedio General: </label>
+                <input
+                type="number"
+                id="promedio"
+                name="promedio"
+                class="entrada"
+                readonly>
+
+                <label for="estudianteNombreAlto">Estudiante con calificacion mas alta:</label>
+                <input 
+                type="text"
+                id="estudianteNombreAlto"
+                name="estudianteNombreAlto"
+                class="entrada"
+                readonly>
+
+                <label for="estudianteCalificacionAlto">Su calificacion fue:</label>
+                <input
+                type="number"
+                id="estudianteCalificacionAlto"
+                name="estudianteCalificacionAlto"
+                class="entrada"
+                readonly>
+
+                <label for="estudianteNombreBajo">Estudiante con calificacion mas baja:</label>
+                <input 
+                type="text"
+                id="estudianteNombreBajo"
+                name="estudianteNombreBajo"
+                class="entrada"
+                readonly>
+
+                <label for="estudianteCalificacionBajo">Su calificacion fue:</label>
+                <input
+                type="number"
+                id="estudianteCalificacionBajo"
+                name="estudianteCalificacionBajo"
+                class="entrada"
+                readonly>
+            </div>
+        </form>
+            <div class="tabla-estudiantes">
+                <h2>Lista de estudiantes</h2>
+                <br><br>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Calificación</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="tablaEstudiantes">
+                    </tbody>
+                </table>
+                <button 
+                type="button" 
+                id="botonReiniciar" 
+                name="botonReiniciar"
+                class="boton">
+                    Reiniciar tabla
+                </button>
+            </div>
+    </div>
+
+    <script src="js/ejercicio15.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 14</title>
+    <link rel="stylesheet" href="css/ejercicio11.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1 class="titulo">Mayor, menor y promedio de varios numeros</h1>
+
+        <form class="formulario">
+            <div class="campo">
+                <label for="numeros">Ingrese números separados por comas:</label>
+                <input
+                    type="text"
+                    id="numeros"
+                    name="numeros"
+                    class="entrada"
+                    placeholder="Ej: 10, 20, 30, 40, 50">
+            </div>
+
+            <button
+                class="boton"
+                type="button"
+                id="botonCalcular"
+                name="botonCalcular">
+                Calcular
+            </button>
+
+            <div class="campo">
+                <label for="mayor">Número mayor:</label>
+                <input
+                    type="text"
+                    id="mayor"
+                    name="mayor"
+                    class="entrada"
+                    readonly>
+
+                <label for="menor">Número menor:</label>
+                <input
+                    type="text"
+                    id="menor"
+                    name="menor"
+                    class="entrada"
+                    readonly>
+
+                <label for="promedio">Promedio:</label>
+                <input
+                    type="text"
+                    id="promedio"
+                    name="promedio"
+                    class="entrada"
+                    readonly>
+            </div>
+        </form>
+    </div>
+
+    <script src="js/ejercicio14.js"></script>
+</body>
+</html>
