@@ -18,9 +18,9 @@ function verificar() {
         return;
     }
 
-    if (edad < 18) {
-        resultado.value = "Usted NO puede votar";
-    } else {
+    if (edad >= 18) {
         resultado.value = "Usted puede votar";
+    } else {
+        resultado.value = "Usted NO puede votar";
     }
 }
