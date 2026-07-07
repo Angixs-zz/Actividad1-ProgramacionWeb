@@ -1,0 +1,93 @@
+/* Estilo general */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef4ff;
+    margin: 0;
+    padding: 40px;
+}
+
+.contenedor {
+    width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #999;
+}
+
+.titulo {
+    text-align: center;
+    color: #1f5fbf;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    background-color: #1f5fbf;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #15448a;
+}
+
+#listaTareas {
+    list-style: none;
+    padding: 0;
+}
+
+.tarea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.botonEliminar {
+    background-color: #d63031;
+}
+
+.botonEliminar:hover {
+    background-color: #a80000;
+}
+
+/* Responsive para celulares */
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    .contenedor {
+        width: 100%;
+        padding: 18px;
+    }
+
+    .titulo {
+        font-size: 24px;
+    }
+
+    input,
+    button {
+        font-size: 15px;
+    }
+}

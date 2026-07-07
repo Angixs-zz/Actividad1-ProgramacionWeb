@@ -51,7 +51,8 @@ label {
     font-size: 14px;
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     padding: 12px 15px;
     border: 1px solid var(--color-borde);
@@ -59,7 +60,8 @@ input, textarea {
     transition: all 0.3s;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
     border-color: var(--color-secundario);
     outline: none;
     box-shadow: 0 0 0 3px rgba(76, 201, 240, 0.2);

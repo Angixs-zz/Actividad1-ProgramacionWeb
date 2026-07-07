@@ -82,7 +82,8 @@ table {
 }
 
 /* celdas */
-th, td {
+th,
+td {
     border: 1px solid #aaa;
     padding: 10px;
     text-align: center;
